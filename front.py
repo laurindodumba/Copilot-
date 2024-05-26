@@ -87,7 +87,7 @@ page = st.sidebar.selectbox("Navegação", ["HOME", "CONFIGURAÇÃO"])
 
 if page == "HOME":
     st.markdown("<h1 style='text-align: center;'>SOLUÇÃO AI GENERATIVA</h1>", unsafe_allow_html=True)
-    image_path = os.path.join("foto", "Capturar.PNG")
+    image_path = "Capturar.PNG"
     st.image(image_path, caption="Logo", use_column_width=True)
     image_base64 = get_image_base64(image_path)
     image_html = f"""
