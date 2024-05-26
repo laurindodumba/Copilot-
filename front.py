@@ -3,6 +3,7 @@ from chat import handle_chat
 from ai import config_page
 import sqlite3
 import pandas as pd
+import os
 import base64
 import PyPDF2
 
